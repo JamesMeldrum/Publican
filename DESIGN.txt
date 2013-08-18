@@ -16,7 +16,7 @@ Publican is a family of Node Modules for publishing content to the web yo.
 They run as separate node processes
 
 
-Use Case Diagram
+### Use Case Diagram
 
 1) Publican CMS
   - User logs in to www.publicanCMS.com, is authorized, redirects to /index.html
@@ -29,3 +29,12 @@ Use Case Diagram
 
 3) Publican Templates
   - HTML / JS that either serve or edit content
+  - Inventory
+
+### Service diagram
+
+ ## Development
+
+ Publican.Templates:  localhost:3000 - Jekyll Server hosting static files
+ Publican.CMS:        localhost:5984 - CouchDB app 
+ Publican.Objects     n/a
