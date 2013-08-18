@@ -38,7 +38,8 @@
 
     "express" : "*",
     "express3-handlebars" : "*",
-    "couchdb" : "*"
+    "couchdb" : "*",
+    "pouchdb" : "*"
 
   }
 }
