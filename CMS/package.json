@@ -35,8 +35,10 @@
   },
   "keywords": [],
   "dependencies" : {
-  
-    "express" : "*"
+
+    "express" : "*",
+    "express3-handlebars" : "*",
+    "couchdb" : "*"
 
   }
 }

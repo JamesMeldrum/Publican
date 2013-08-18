@@ -28,7 +28,14 @@ Licensed under the MIT license.
 
 ## Notes:
 
-  - Site is modelled as a domain
-  - One Publican.CMS instance runs many Domains
-  - Domains have documents
+  - One Publican.CMS instance runs many Domains ( Site is modelled as a set of domain )
+  - Domains have documents ( List, Detail )
   - Documents have nodes
+
+## Automation Notes
+
+  - Configuring Git installation
+  - Configuring CouchDB installation:
+    1) Create CouchDB database
+      ** Maybe create web user aswell
+  

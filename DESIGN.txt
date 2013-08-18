@@ -36,5 +36,5 @@ They run as separate node processes
  ## Development
 
  Publican.Templates:  localhost:3000 - Jekyll Server hosting static files
- Publican.CMS:        localhost:5984 - CouchDB app 
- Publican.Objects     n/a
+ Publican.CMS:        localhost:4000 - Node CMS
+ Publican.Objects     localhost:5984 - CouchDB app
