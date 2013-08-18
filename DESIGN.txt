@@ -1,0 +1,31 @@
+Publican
+========
+
+Publican is a family of Node Modules for publishing content to the web yo.
+
+
+  - Publican CMS
+    * Content Management System for preparing content
+
+  - Publican Templates
+    * Front End for viewing publican documents
+
+  - Publican Objects
+    * Data Structures - JSON prepared by the CMS that is delivered to the templates
+
+They run as separate node processes
+
+
+Use Case Diagram
+
+1) Publican CMS
+  - User logs in to www.publicanCMS.com, is authorized, redirects to /index.html
+  - User performs pre-defined actions
+  - Actions are performed on templates
+
+2) Publican Objects
+  - Saves all the data structures to disk
+  - Serves up API requests
+
+3) Publican Templates
+  - HTML / JS that either serve or edit content
