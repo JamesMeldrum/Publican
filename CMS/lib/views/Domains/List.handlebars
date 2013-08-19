@@ -1,3 +1,13 @@
 <h3>
   Here are all the domains that have been registered with this application
 </h3>
+{{#each domains}}
+  {{#with this}}
+  <p>
+  
+    id:  {{ value._id }}<br />
+    Title: {{ value.title }} <br />
+
+  </p>
+  {{/with}}
+{{/each}}

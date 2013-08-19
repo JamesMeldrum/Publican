@@ -17,5 +17,6 @@ exports.draftRoutingTable = function( publicanCMSInstance ){
   // TODO: Build GET/POST routes based on routing
   //       configuration file
   publicanCMSInstance.get('/', routes['GET']['/']);
+  publicanCMSInstance.get('/domains/:domain_id', routes['GET']['/domains/:domain_id']);
 
 };

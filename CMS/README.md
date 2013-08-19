@@ -39,3 +39,4 @@ Licensed under the MIT license.
     1) Create CouchDB database
       ** Maybe create web user aswell
   
+    2) Creating all the views
